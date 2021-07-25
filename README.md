@@ -42,4 +42,4 @@ or San Francisco, USA ≠ Sanfrancisco, Venezuela. The temperature outputs are d
 4. Case handling - if only the city is provided (incomplete url) or no days are provided,
    then number of days is set to default value of 1.
 5. Forecast starts from first hour of today. A 1-day request made at 10am will provide a 24-hour forecast,
-   however only 14 hours are in the future. 
+   however, only 14 hours are in the future. 
