@@ -1,4 +1,4 @@
-# Django REST API Weather App
+# Django Weather App REST API
 
 ## Description
 A REST API built in Django that accepts city names and number of days to provide a temperature forecast. 
