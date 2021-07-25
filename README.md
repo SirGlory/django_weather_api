@@ -31,9 +31,9 @@ http://127.0.0.1:8000/api/locations/london/?days=3
 ## Calculations
 Calculations are made over the entire time period. For example, querying a 2-day forecast will return the max, min,
 mean, and median temperature over the whole 48-hour period. Calculations are made through use of the Python Statistics 
-Module. All values rounded to one decimal place.
+module. All values rounded to one decimal place.
 
-##Limitations
+## Limitations
 1. Does not handle special characters such as - or . or ü,
 Will not work for cities such as München, Washington D.C., Nur-Sultan.
 2. Can only forecast up to 3 days due to free tier limitations at www.weatherapi.com/
